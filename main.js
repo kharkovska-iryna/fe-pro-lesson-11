@@ -103,8 +103,8 @@ console.log(burger);
 
 
 console.log(burger.getStuffing());
-console.log(burger.addTopping(HAMBURGER.TOPPING_MAYONESSE));
-console.log(burger.addTopping(HAMBURGER.TOPPING_SPICE));
+burger.addTopping(HAMBURGER.TOPPING_MAYONESSE);
+burger.addTopping(HAMBURGER.TOPPING_SPICE);
 console.log(burger.getToppings());
 console.log(burger.getSize());
 
